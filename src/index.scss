@@ -1,0 +1,19 @@
+:root {
+  --off-white: #f2efe7;
+  --off-black: #222;
+  --off-grey: #525252;
+  --off-blue: #9498ff;
+  --off-red: #ff7f90;
+  --font: "Raleway", sans-serif;
+  --card-light1: #dbd9d0;
+  --card-light2: #aba9a2;
+  --card-dark1: #3b3b3b;
+  --card-dark2: #525252;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: var(--font);
+  text-decoration: none;
+}

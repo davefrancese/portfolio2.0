@@ -1,0 +1,121 @@
+.template-container {
+  margin: 0 10%;
+}
+
+.Template-light {
+  color: var(--off-black);
+  .back-btn {
+    transition: 0.5s ease-out;
+    background: transparent;
+    font-family: var(--font);
+    color: var(--off-blue);
+    border: 1px solid var(--off-blue);
+    padding-top: 2px;
+  }
+  .back-btn:hover {
+    color: var(--off-red);
+    border: 1px solid var(--off-red);
+  }
+  .web-dev-proj {
+    margin-bottom: 0px;
+    .project-images {
+      text-align: center;
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-rows: auto;
+      img {
+        transition: width 0.5s ease-out;
+        display: block;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+    .project-walkthrough {
+      margin-top: 10px;
+      text-align: center;
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-bottom: 56.25%;
+      .walkthrough {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+      }
+    }
+    .tech-images {
+      margin-top: 30px;
+      text-align: center;
+      .tech {
+        margin-right: 10px;
+        max-width: 100px;
+      }
+    }
+    .project-links a {
+      transition: color 0.5s ease-out;
+      color: var(--off-blue);
+      text-decoration: none;
+    }
+    .project-links a:hover {
+      color: var(--off-red);
+    }
+  }
+}
+
+.Template-dark {
+  color: var(--off-white);
+  .back-btn {
+    transition: 0.5s ease-out;
+    background: transparent;
+    font-family: var(--font);
+    color: var(--off-red);
+    border: 1px solid var(--off-red);
+    padding-top: 2px;
+  }
+  .back-btn:hover {
+    color: var(--off-blue);
+    border: 1px solid var(--off-blue);
+  }
+  .graphics-proj {
+    .project-images {
+      text-align: center;
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-rows: auto;
+      img {
+        transition: width 0.5s ease-out;
+        display: block;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+    .pdf {
+      text-align: center;
+      margin-top: 50px;
+      a {
+        transition: 0.5s ease-out;
+        color: var(--off-red);
+        text-decoration: none;
+        border: 1px solid var(--off-red);
+        padding: 2px;
+      }
+      a:hover {
+        color: var(--off-blue);
+        border: 1px solid var(--off-blue);
+      }
+    }
+    .tech-images {
+      margin-top: 30px;
+      margin-bottom: 50px;
+      text-align: center;
+      .tech {
+        margin-right: 50px;
+        max-width: 100px;
+      }
+    }
+  }
+}
